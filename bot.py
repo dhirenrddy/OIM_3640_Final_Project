@@ -2,12 +2,11 @@ from telegram.ext import Application, CommandHandler, ContextTypes # import core
 from telegram import Update # import the update class which represents an incoming message or command
 from dotenv import load_dotenv # import the function to load env variables from .enc 
 import os #import the os module to access BOT_TOKEN 
-from events.loader import get_events_by_type # a function for /events_type
 
 load_dotenv() # load BOT_TOKEN
 
 import datetime # import datetime to handle time commands from user in bot
-from events.loader import get_events_for_date, format_events # handles events based on date same as type
+from events.loader import get_events_for_date, format_events, get_events_by_type, get_events_by_club # for handling events format, date, type, and club
 
 async def events_today(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """
@@ -30,6 +29,9 @@ async def events_tomorrow(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(format_events(events))
 
 async def events_date(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """
+    follows the same formatting as the previous functions
+    """
     print("✅ Received /events_date")
     if not context.args:
         await update.message.reply_text("Usage: /events_date YYYY-MM-DD")
@@ -37,8 +39,6 @@ async def events_date(update: Update, context: ContextTypes.DEFAULT_TYPE):
     date_str = context.args[0]
     events = get_events_for_date(date_str)
     await update.message.reply_text(format_events(events))
-
-from events.loader import get_events_by_club
 
 async def events_club(update: Update, context: ContextTypes.DEFAULT_TYPE):
     print("✅ Received /events_club")
@@ -64,7 +64,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     print("✅ Received /start")
-    await update.message.reply_text("Hello! You can utilize the menu to see the events that interest you!")
+    await update.message.reply_text("Hello! Please check the bot description. You can utilize the menu button on the bottom left to check and sort the events schedule!")
 
 app = Application.builder().token(BOT_TOKEN).build()
 app.add_handler(CommandHandler("start", start))

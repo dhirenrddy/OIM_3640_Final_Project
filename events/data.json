@@ -1,18 +1,161 @@
-[
-    {
-      "date": "2025-05-03",
-      "time": "14:00",
-      "title": "AI Workshop",
-      "location": "Hall A",
-      "club": "AI Club",
-      "type": "Workshop"
-    },
-    {
-      "date": "2025-05-03",
-      "time": "17:00",
-      "title": "Startup Panel",
-      "location": "Main Auditorium",
-      "club": "Entrepreneurship Cell",
-      "type": "Talk"
-    }
-  ]
+[{
+  "date": "2025-04-16",
+  "time": "19:00",
+  "title": "CS Community Social",
+  "location": "CODE Lobby",
+  "club": "Babson Technological Society",
+  "type": "Social"
+},    
+{
+  "date": "2025-04-29",
+  "time": "19:00",
+  "title": "Babson Music Collective Concert",
+  "location": "Carling-Sorenson Theatre",
+  "club": "BabsonARTS",
+  "type": "Cultural"
+},
+{
+  "date": "2025-04-28",
+  "time": "20:00",
+  "title": "Alexander the Great Discussion",
+  "location": "CODE Lobby",
+  "club": "Babson Book Bunch",
+  "type": "Academic"
+},
+{
+  "date": "2025-04-27",
+  "time": "16:00",
+  "title": "Sunday Weekly Mass",
+  "location": "Glavin Chaper",
+  "club": "Babson Olin Catholic Association",
+  "type": "Spiritual"
+},
+{
+  "date": "2025-04-25",
+  "time": "20:00",
+  "title": "BDE Spring 2025 Showcase",
+  "location": "Sorenson Arts Theatre",
+  "club": "Babson Dance Ensemble",
+  "type": "Dance"
+},
+{
+  "date": "2025-04-24",
+  "time": "19:00",
+  "title": "Students Against Gravity Improv Practice",
+  "location": " Babson Hall 203",
+  "club": "Students Against Gravity Improv",
+  "type": "Workshop"
+},
+{
+  "date": "2025-04-23",
+  "time": "18:30",
+  "title": "Taste of China: Hippopo Kitchen",
+  "location": "Reynolds Campus Center",
+  "club": "Chinese Student and Scholar Association",
+  "type": "Cultural"
+},
+{
+  "date": "2025-04-22",
+  "time": "19:00",
+  "title": "Roots and Rhythm",
+  "location": "Van Winkle Hall",
+  "club": "Sister Circle",
+  "type": "Social"
+},
+{
+  "date": "2025-04-21",
+  "time": "18:00",
+  "title": "Beauty Jeopardy",
+  "location": "Malloy Hall",
+  "club": "Babson Beauty Society",
+  "type": "Social"
+},
+{
+  "date": "2025-04-20",
+  "time": "19:00",
+  "title": "TJH Weekly Meeting",
+  "location": "The Johnson House",
+  "club": "Black Student Union",
+  "type": "Meeting"
+},
+{
+  "date": "2025-04-19",
+  "time": "14:00",
+  "title": "Babson E-Sports Super Smash Bros Event",
+  "location": "Park Manor West Amphitheater",
+  "club": "Babson E-Sports Club",
+  "type": "Social"
+}, 
+{
+  "date": "2025-04-18",
+  "time": "11:30",
+  "title": "VP of Sales for OLIPOP",
+  "location": "Olin Hall - Winn Auditorium",
+  "club": "Babson Retail Organization",
+  "type": "Educational"
+}, 
+{
+  "date": "2025-04-17",
+  "time": "17:30",
+  "title": "HSU Easter Basket Making",
+  "location": "Reys Vendor Table",
+  "club": "Hispanic Student Union",
+  "type": "Workshop"
+}, 
+{
+  "date": "2025-04-14",
+  "time": "19:00",
+  "title": "Bridges to Belonging",
+  "location": "Park Manor West Amphitheater",
+  "club": "Origins of Necessary Equality",
+  "type": "Workshop"
+}, 
+{
+  "date": "2025-04-12",
+  "time": "18:30",
+  "title": "Dark Appetite: Wicked Wasabi",
+  "location": "Van Winkle Lounge",
+  "club": "Babson Pride",
+  "type": "Social"
+}, 
+{
+  "date": "2025-04-10",
+  "time": "19:00",
+  "title": "Sex Trvia",
+  "location": "Roger's Pub",
+  "club": "Wellness and Prevention Services",
+  "type": "Educational"
+}, 
+{
+  "date": "2025-04-09",
+  "time": "11:00",
+  "title": "Beam Kick-Off",
+  "location": "HELV",
+  "club": "Healthy Living Tower",
+  "type": "Educational"
+}, 
+{
+  "date": "2025-04-08",
+  "time": "19:30",
+  "title": "AIA Weekly Meeting",
+  "location": "Van Winkle Lobby",
+  "club": "Athletes in Action",
+  "type": "Spiritual"
+}, 
+{
+  "date": "2025-04-06",
+  "time": "11:00",
+  "title": "Lemony Spring Travel Tournament",
+  "location": "CODE Lobby",
+  "club": "Goddark Park",
+  "type": "Athletic"
+}, 
+{
+  "date": "2025-04-03",
+  "time": "18:30",
+  "title": "CDesign Showndown: Opposites Attract",
+  "location": "Weismann Foundry",
+  "club": "Fashion and Sneaker Organization",
+  "type": "Arts"
+}
+]

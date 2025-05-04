@@ -42,3 +42,16 @@ Another issue at hand is the handling of phone numbers. More specifically, a SIM
 -	API keys and web-scrapping technology 
 -	Use of html for website creation
 -	Cloud management for user’s information (phone number and email address)
+
+# Submission Reflection
+To run the code just open telegram and find @evebabot and /start.
+
+Based of the aforementioned proposal, changes were obligatory due to restrictions and obstacles the group faced during their submission. Our original intention was to create a web-scrapping bot that was able to send automated messages semi-daily regarding the ongoing campus events. However, we were not provided the access to the server (status code error: 403), thus rather than webscrapping technology, we came to the conclusion that .json files were required. Overall, we were able to extrapolate our idea and create mutliple commands (e.g. /events_today, /events_tomorrow, /events_date, /events_club and /events_type) that could access the .json files and provide users the filter lists of campus events. The .json file implemented into the project contains a list of all events conducted in the month of April that were manually inputted due to this unforeseen error. We had to use this method because there was no other way to scrape Babson websites. At some point we decided to pivot to a bot that instead outputs Trim menu based on commands such as /breakfast, /lunch and /dinner, but ran into 403 even on the dine-on-campus website. It is important to note that the group did not attempt to bypass the server as we warned by the Babson IT Centre that repercussion may be handed for these actions. So the bot is usable with accurate data if we were able to bypass the restriction and automate daily scraping. 
+
+### Note 1
+ The project submission deadline being towards the end of the academic year also contributed to our decision of mannually inputting data into a json file just to make sure the bot works, instead of scraping because there are simply no events in the end of the semester.  Thus, if /events_today returns "No events found 🎉", that's because there are no events, not because there are errors in the code or because we didn't automate scraping.  
+
+### Note 2
+Throughout the project multiple resources were utilized, including w3schools, pythonorg.docs, python-telegram-bot Docs, Python Dotenv Docs, and AI.
+
+Lastly, the Telegram bot is a free to use bot that does not require authentication (i.e username and password) as it was against the Terms and Services of Belong to gain information regarding students. Despite these restrictions, the group wished to continue this project and thus manually inputting each data set was the best course of action.
