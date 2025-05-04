@@ -8,9 +8,7 @@ def load_events():
         return json.load(f)
 
 def get_events_for_date(date_str):
-    for e in load_events():
-        if e["date"] == date_str:
-            return e 
+    return [e for e in load_events() if e["date"] == date_str]
 
 def get_events_by_club(club_name):
     return [e for e in load_events() if e["club"].lower() == club_name.lower()]
