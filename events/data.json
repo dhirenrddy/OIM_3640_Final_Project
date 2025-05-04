@@ -1,0 +1,18 @@
+[
+    {
+      "date": "2025-05-03",
+      "time": "14:00",
+      "title": "AI Workshop",
+      "location": "Hall A",
+      "club": "AI Club",
+      "type": "Workshop"
+    },
+    {
+      "date": "2025-05-03",
+      "time": "17:00",
+      "title": "Startup Panel",
+      "location": "Main Auditorium",
+      "club": "Entrepreneurship Cell",
+      "type": "Talk"
+    }
+  ]
